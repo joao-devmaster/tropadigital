@@ -9,11 +9,11 @@ import { FaSignal } from "react-icons/fa";
 import cardimage from "../../assets/image7.png";
 
 const Home = () => {
-  const [user, setUser] = useState("Usuário");
-  const [title, setTitle] = useState(
+  const [user] = useState("Usuário");
+  const [title] = useState(
     "Lorem Ipsum is simply dummy text of the printing and typesettin..."
   );
-  const [subtitle, setSubtitle] = useState(
+  const [subtitle] = useState(
     "Lorem Ipsum is simply dummy text of the printing and typesettin."
   );
 

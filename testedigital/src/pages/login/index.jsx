@@ -1,17 +1,9 @@
 import React from "react";
 import "./login.css";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
-import { useState } from "react";
-
 import fundo from "../../assets/image6.png";
 import logo from "../../assets/logo.png";
-import retangle from "../../assets/Rectangle3.png";
 
 const Login = () => {
-  const [showElement, setShowElement] = useState(true);
-  const showOrHide = () => setShowElement(false);
-
   return (
     <>
       <div className="complete-login">
