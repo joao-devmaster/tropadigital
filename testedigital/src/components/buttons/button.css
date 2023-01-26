@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.button-menu {
+  width: 180px;
+  height: 45px;
+  background-color: #3fafb2;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.button-menu &:active {
+  background-color: red;
+}
+
+.title-category {
+  padding-left: 1rem;
+  font-size: 14px;
+}
